@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/12/20 0:14:08。
+     1>项目“F:\VS2015\PicDeal\PicDeal\PicDeal.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Visual Studio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\PicDeal.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ContrastDlg.cpp
+         ContrastDlg.cpp
+     1>f:\vs2015\picdeal\picdeal\resource.h(29): warning C4005: “IDC_SIZE”: 宏重定义
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\winuser.h(8832): note: 参见“IDC_SIZE”的前一个定义
+     1>ContrastDlg.cpp(58): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>ContrastDlg.cpp(60): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files\Visual Studio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2015\PicDeal\Release\PicDeal.exe" /INCREMENTAL:NO /NOLOGO opencv_ts300.lib opencv_world300.lib IlmImf.lib ippicvmt.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_ts300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Visual Studio2015\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"F:\VS2015\PicDeal\Release\PicDeal.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2015\PicDeal\Release\PicDeal.lib" /MACHINE:X86 /SAFESEH Release\PicDeal.res
+         Release\CannyDlg.obj
+         Release\CannyShowDlg.obj
+         Release\ColenhDlg.obj
+         Release\ContrastDlg.obj
+         Release\FFTDlg.obj
+         Release\FileDialogSkin.obj
+         Release\FilterDlg.obj
+         Release\HisDlg.obj
+         Release\PicDeal.obj
+         Release\PicDealDlg.obj
+         Release\SmoothDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         2 of 385 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         PicDeal.vcxproj -> F:\VS2015\PicDeal\Release\PicDeal.exe
+     1>已完成生成项目“F:\VS2015\PicDeal\PicDeal\PicDeal.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.19
